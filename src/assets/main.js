@@ -62,7 +62,7 @@ function showAnswer(success){
   }else{
     code.className += ' failure';
   }
-  code.className += answer.value;
+  code.innerHTML += answer.value;
 }
 
 function showReplay(){
