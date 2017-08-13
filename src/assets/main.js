@@ -67,7 +67,7 @@ function showAnswer(success){
 
 function showReplay(){
   document.getElementById('guessing-div').style.display = "none";
-  document.getElememyById('replay-div').style.display = "block";
+  document.getElememtById('replay-div').style.display = "block";
 }
 
 function validateInput(input){
