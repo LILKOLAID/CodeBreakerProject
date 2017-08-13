@@ -35,7 +35,7 @@ function getResults(input){
       html += '<span class="glyphicon glyphicon-remove"></span>';
     }
   }
-  html += '</div><div>';
+  html += '</div></div>';
   document.getElementById('results').innerHTML += html;
   if(input == answer.value){
     return true;
@@ -67,7 +67,7 @@ function showAnswer(success){
 
 function showReplay(){
   document.getElementById('guessing-div').style.display = "none";
-  document.getElememtById('replay-div').style.display = "block";
+  document.getElementById('replay-div').style.display = "block";
 }
 
 function validateInput(input){
